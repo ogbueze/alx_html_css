@@ -1,0 +1,29 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: blue;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: pink;
+}
+header {
+    background-color: brown;
+}
+footer {
+    background-color: green;
+}
