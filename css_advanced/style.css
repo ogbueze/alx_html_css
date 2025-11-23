@@ -1,0 +1,128 @@
+body {
+    background: url('images/CSS\ Advanced/object.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em 10em 0;
+    padding: 0px;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    margin: 0 1em;
+}
+nav a{
+    text-decoration: none;
+    
+    color: white;
+}
+nav img {
+    height: 30px;
+}
+.pros {
+    display: flex;
+    
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel{
+    margin-top: 12em;
+   justify-content: center;
+   align-items: center;
+    /* background-color: red; */
+}
+.carousel button {
+    display: block;
+    padding: 1em 12px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(215, 126, 226);
+    color: white;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+.carousel h1 {
+    color: white;
+    font-size: 8em;
+    margin: 0;
+}
+.smile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.smile-span span{
+    margin-top: 2em;
+    margin-left: 3em;
+    color: white;
+}
+.pros-container {
+    margin-top: 8em;
+    align-items: center;
+    justify-content: center;
+}
+.pros-container h2 {
+    margin-bottom:3em ;
+    text-align: center;
+    color: white;
+}
+.pros-container h2 span{
+    color: rgb(215, 126, 226);
+}
+.pro-profile {
+    width: 200px;
+    margin: 4.5em 2em;
+    color: white;
+    text-align: center;
+}
+.pro-profile img{
+    width: 7em;
+    border-radius: 3.5em;
+}
+.pro-profile h3, p{
+    margin: 0.5em 0 0 0;
+}
+.pro-profile p{
+    font-size: 0.7em;
+    color: rgb(205, 199, 199);
+}
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 126, 226);
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 5em 0 ;
+    
+}
+.quote-text {
+    margin-left: 2em;
+    width: 32em;
+}
